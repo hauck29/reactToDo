@@ -1,0 +1,11 @@
+
+.itemDiv{
+    display: flex;
+    justify-content: flex-start;
+    width: 15vw;
+    border: none;
+    margin: 1vh;
+    border-radius: 5px;
+    padding: 1vh;
+    box-shadow: inset 1rem 1rem 1rem .4rem rgba(0, 0, 0, 0.3), .4rem .4rem 10px rgba(0, 0, 0, 0.45);
+}
