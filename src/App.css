@@ -2,36 +2,56 @@ body{
     margin: 0;
     padding: 0;
     /* background-color: rgba(194, 211, 166, 0.5); */
-    background-image: url('https://ak.picdn.net/shutterstock/videos/1653193/thumb/1.jpg');
+    background-image: url('https://wallpaperaccess.com/full/1489353.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    position: absolute;
+
 }
 .listWrap{
-    background-color: rgba(182, 171, 108, 0.5);
+    /* background-color: rgba(182, 171, 108, 0.5); */
+    /* background-image: url('https://media.istockphoto.com/photos/white-lines-paper-school-background-picture-id1187716877?k=20&m=1187716877&s=612x612&w=0&h=aGSOl4SpZUuYIzYJu7kMyt0chKe1Kw20qrQVfWutT50='); */
+    background-size: cover;
     border-radius: 10px;
-    width: 50vw;
-    height: 70vh;
-    margin-top: 15vh;
-    margin-left: 25vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    width: 40vw;
+    height: 25vh;
+    margin-top: 25vh;
+    margin-left: 27.5vw;
+    overflow-y: scroll;
+    position: relative;
+    top: 25vh;
+    left: 11vw;
+    display: grid;
+    grid-template-columns: 33.334% 33.334%;
 }
 .taskInput{
     border-radius: 5px;
     width: 15vw;
-    border: none;
+    border: solid 1px black;
     margin: 1vh;
     background-color: rgba(214, 214, 214, 0.45);
 }
 .remDiv{
-    margin-top: 5vh;
+    margin-top: 2.5vh;
+    margin-left: 5vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 8vw;
+    border-radius: 5px;
+    padding: 0.3em;
+    color: whitesmoke;
+}
+input{
 }
 button{
     margin-bottom: 1vh;
     background-color: rgba(182, 171, 108, 0.8);
     border-radius: 5px;
+    margin-left: 2vw;
     border: none;
     box-shadow: inset 1rem 1rem 1rem .4rem rgba(0, 0, 0, 0.3), .4rem .4rem 10px rgba(0, 0, 0, 0.45);
+    transition: ease 0.4s all;
+    border: solid 1px black;
+}
+button:hover{
+    transform: scale(1.15);
 }

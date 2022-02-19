@@ -39,14 +39,17 @@ function App() {
 
   return (
     <>
-      <div className="listWrap">
-        <TodoList items={items} toggleItem={toggleItem} />
-        <input ref={itemNameRef} type="text" placeholder='New Task...' className='taskInput' />
+    <div className='aboveList'>
+    <input ref={itemNameRef} type="text" placeholder='New Task...' className='taskInput' />
         <button onClick={handleAddItem}>Add Item</button>
         <button onClick={handleClearCompletedItems}>Clear Completed</button>
         <div className='remDiv'>
           {items.filter((item) => !item.complete).length} remaining items
         </div>
+    </div>
+      <div className="listWrap">
+        <TodoList items={items} toggleItem={toggleItem} />
+
       </div>
     </>
   );
